@@ -10,9 +10,9 @@
         alert("Rule of the Game")
         alert("Game is end when you guess correct number")
         alert("If you play game again then refresh the page")
-        let random = Math.floor(Math.random()*100)
+        let random = Math.floor(Math.random()*30)
         for(i=0;i<=2;i){
-        let userInput=parseInt(prompt("Guess the number(Between 1 to 100)"))
+        let userInput=parseInt(prompt("Guess the number(Between 1 to 30)"))
         if(random==userInput){
             document.write("<center><b><font size=10>Your Guess Is Right</font><b></center>")
             break;
